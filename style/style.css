@@ -85,3 +85,50 @@ footer, header, hgroup, menu, nav, section {
     border-radius:25px; 
     background-color:whitesmoke;
 }
+
+/* game div styles */
+.game-div{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+}
+.game-div *{
+    font-size:30px;
+}
+
+
+/* grid elements */
+.main-grid-div{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    cursor:pointer;
+    grid-gap:5px;
+    background-color: black;
+    padding:20px;
+}
+.grid-item{
+    width:80px;
+    height:80px;
+    margin:0px;
+    background-color:#cdcfd5;
+    color:black;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    font-size:40px;
+}
+.grid-item:hover{
+    background-color:gray;
+}
+
+.lower-btn{
+    width:150px;
+    height:50px;
+    border-radius:25px;
+    font-size:20px;
+}
+.lower-btn:hover{
+    background-color:#cdcfd5;
+}
